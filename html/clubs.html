@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>top 5 clubs</title>
+    <style>
+      body {
+        background: url(/images/STD2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+      }
+
+      .club {
+        text-align: center;
+        font-size: 80px;
+        margin-top: 0%;
+        color: aliceblue;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+
+      .club-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+      }
+
+      .club-item {
+        color: black;
+        font-size: 300%;
+        background-color: white;
+        border-radius: 100px;
+        border-color: black;
+        padding: 10px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+
+      .club-item:hover {
+        background-color: yellowgreen;
+        cursor: pointer;
+        color: white;
+        border-color: white;
+        box-shadow: 0 8px 20px black;
+        transform: scale(1.05);
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="club-list">
+      <h2 class="club">TOP 5 CLUBS</h2>
+
+      <a href="https://www.realmadrid.com/en"
+        ><h1 class="club-item">1. REAL MADRID</h1></a
+      >
+
+      <a href="https://www.mancity.com/"
+        ><h1 class="club-item">2. MANCHESTER CITY</h1></a
+      >
+
+      <a href="https://www.fcbarcelona.com/"
+        ><h1 class="club-item">3. BARCELONA</h1></a
+      >
+
+      <a href="https://www.liverpoolfc.com/"
+        ><h1 class="club-item">4. LIVERPOOL</h1></a
+      >
+
+      <a href="https://en.psg.fr/"><h1 class="club-item">5. PSG</h1></a>
+    </div>
+  </body>
+</html>
